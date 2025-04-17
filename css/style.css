@@ -256,7 +256,7 @@ main .main-child .menu-side-bar .line {
 /* important number side */
 
 .important-number-side {
-    width: 28%;
+    width: 370px;
 }
 
 .title {
@@ -275,16 +275,16 @@ main .main-child .menu-side-bar .line {
 
 .important-number-container {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     flex-wrap: wrap;
     margin-top: 20px;
 }
 
 .important-number-container .important-number-box {
-    width: calc((100% - 20px) / 2);
+    width: calc((100% - 15px) / 2);
     background-image: linear-gradient(to left bottom, #1a7e51, #17704a, #146342, #12563b, #114933);
     border-radius: 20px;
-    padding: .6rem;
+    padding: .7rem;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -308,7 +308,7 @@ main .main-child .menu-side-bar .line {
     background-image: linear-gradient(to left bottom, #30845e, #2e7a59, #2c7153, #2b674e, #295e48);
     flex-grow: 1;
     border-radius: 12px;
-    padding:1.5rem .6rem;
+    padding:1.2rem .6rem;
 }
 
 .important-number-container .important-number-box .imp-num {
