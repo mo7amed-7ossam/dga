@@ -35,7 +35,7 @@ nav .nav-child {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 95%;
+    width: 90%;
     margin: auto;
     height: 70px;
 }
@@ -134,7 +134,7 @@ main {
 
 main .main-child {
     display: flex;
-    width: 95%;
+    width: 90%;
     align-items: flex-start;
     justify-content: space-between;
     margin: auto;
@@ -375,7 +375,7 @@ footer .footer-child {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
+    width: 90%;
     margin: auto;
 }
 
