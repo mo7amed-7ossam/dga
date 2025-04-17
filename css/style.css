@@ -308,7 +308,7 @@ main .main-child .menu-side-bar .line {
     background-image: linear-gradient(to left bottom, #30845e, #2e7a59, #2c7153, #2b674e, #295e48);
     flex-grow: 1;
     border-radius: 12px;
-    padding: .6rem;
+    padding:1.5rem .6rem;
 }
 
 .important-number-container .important-number-box .imp-num {
