@@ -237,12 +237,54 @@ main .main-child .menu-side-bar .side-menu .menu-item .drop-menu .drop-menu-item
     font-size: .8rem;
     transition: all 0.3s ease-in-out;
     border-radius: 6px;
-    position: relative;
-
+    
 }
 
+main .main-child .menu-side-bar .side-menu .menu-item .drop-menu .drop-menu-item  .more-drop-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .8rem;
+}
 
-main .main-child .menu-side-bar .side-menu .menu-item .drop-menu .drop-menu-item:hover {
+main .main-child .menu-side-bar .side-menu .menu-item .drop-menu .drop-menu-item svg {
+    width: 18px;
+}
+
+main .main-child .menu-side-bar .side-menu .menu-item .drop-menu .drop-menu-item:hover,
+main .main-child .menu-side-bar .side-menu .menu-item .drop-menu .drop-menu-item.clicked-item {
+    background-color: #59816f;
+    cursor: pointer;
+}
+
+main .main-child .menu-side-bar .side-menu .menu-item .drop-menu .drop-menu-item .drop-icon {
+
+    transition: all 0.3s ease-in-out;
+}
+
+main .main-child .menu-side-bar .side-menu .menu-item .drop-menu .drop-menu-item.clicked-item .drop-icon {
+    transform: rotate(45deg);
+}
+
+main .main-child .menu-side-bar .side-menu .menu-item .drop-menu .drop-menu-item .more-drop {
+    width: 100%;
+    margin: auto;
+    padding: .5rem;
+    border-radius: 5px;
+    background-color: #084d31;
+    display: none;
+}
+
+main .main-child .menu-side-bar .side-menu .menu-item .drop-menu .drop-menu-item .more-drop .more-drop-item {
+    padding: 0.5rem;
+    color: #fff;
+    font-size: .8rem;
+    transition: all 0.3s ease-in-out;
+    border-radius: 6px;
+}
+
+main .main-child .menu-side-bar .side-menu .menu-item .drop-menu .drop-menu-item .more-drop .more-drop-item:hover {
     background-color: #59816f;
     cursor: pointer;
 }
@@ -308,7 +350,7 @@ main .main-child .menu-side-bar .line {
     background-image: linear-gradient(to left bottom, #30845e, #2e7a59, #2c7153, #2b674e, #295e48);
     flex-grow: 1;
     border-radius: 12px;
-    padding:1.2rem .6rem;
+    padding: 1.2rem .6rem;
 }
 
 .important-number-container .important-number-box .imp-num {
@@ -380,22 +422,22 @@ footer .footer-child {
     margin: auto;
 }
 
-footer .footer-child div div{
+footer .footer-child div div {
     gap: 20px;
     display: flex;
 }
 
-footer .footer-child p{
+footer .footer-child p {
     font-weight: bold;
     font-size: .9rem;
     margin-bottom: 8px;
 }
 
-footer .footer-child a{
+footer .footer-child a {
     color: #6c737f;
     font-size: .8rem;
 }
 
-footer .footer-child img{
+footer .footer-child img {
     width: 150px;
 }

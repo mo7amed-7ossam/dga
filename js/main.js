@@ -8,4 +8,8 @@ $(document).ready(function () {
         $(this).closest(".menu-item").find(".drop-menu").slideToggle(300);
     });
 
+    $(".more-drop-btn").click(function () {     
+        $(this).closest(".drop-menu-item").toggleClass("clicked-item")
+        $(this).closest(".drop-menu-item").find(".more-drop").slideToggle(300);
+    });
 })
