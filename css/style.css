@@ -350,6 +350,7 @@ main .main-child .menu-side-bar .line {
     aspect-ratio: 1/1;
     display: flex;
     border-radius: 50%;
+    color: #067647;
 }
 
 .main-content .services-container .service-box .service-icon svg {
